@@ -146,7 +146,6 @@ ollama_payload = {
     "stream": False, #full response at once
     "options": {
         "temperature": 0.3, #determines how generative 
-        # "top_k": 20,
         "num_ctx": 8192 #important. determines context len. poosible values 1024, 2048(default), 4096, 8192. If input exceeds the given num_ctx response will be empty. Setting high value will consume more memory.
     }
 }
